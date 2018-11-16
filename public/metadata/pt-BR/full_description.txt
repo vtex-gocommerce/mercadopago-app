@@ -1,7 +1,1 @@
-O PagSeguro é uma solução de comércio eletrônico que intermedia o pagamento entre o vendedor e o comprador.
-
-O comprador escolhe o produto ou serviço que quer comprar em um dos sites que utilizam o PagSeguro, ao finalizar a compra é direcionado para o site do PagSeguro e escolhe a forma de pagamento, podendo ser via cartão de crédito, transferência eletrônica ou boleto bancário.
-
-O PagSeguro tem convênio com diversas instituições bancárias para que o vendedor possa oferecer diferentes tipos de pagamento aos compradores, que recebem o pagamento e repassam ao vendedor após certificar-se de que não houve fraude na operação. O serviço oferece mais de 25 meios de pagamento.
-
-Para as compras em que o cliente que não recebeu o produto ou não o recebeu de acordo com o combinado, é possível abrir uma disputa (reclamação), onde o PagSeguro faz a mediação da disputa para ajudar o comprador a receber o produto ou o dinheiro de volta, e ajuda o vendedor a receber o dinheiro da transação ou a devolvê-lo ao comprador.
+Com o Mercado Pago, você pode fazer pagamentos on-line, enviar dinheiro gratuitamente para os seus contatos e adicionar crédito, de onde estiver.

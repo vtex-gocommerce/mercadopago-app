@@ -54,14 +54,12 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
             "creditCardActive": {
               "type": "boolean",
               "widget": "toggle",
-              "required": true,
               "options": optionsYesNo,
               "title": intl.formatMessage({ id: `${intlPrefix}.creditCardActive` })
             },
             "redirectActive": {
               "type": "boolean",
               "widget": "toggle",
-              "required": true,
               "options": optionsYesNo,
               "title": intl.formatMessage({ id: `${intlPrefix}.redirectActive` })
             },
@@ -94,18 +92,22 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
             "installments": {
               "fields": {
                 "numberOfInstallments": {
-                  "required": true,
                   "type": "boolean",
                   "widget": "select",
                   "title": intl.formatMessage({ id: `${intlPrefix}.installments.numberOfInstallments` }),
-                  "options": optionsInstallments
+                  "options": optionsInstallments,
+                  "validate": {
+                    "required": true
+                  }
                 },
                 "numberOfInstallmentsInterestFree": {
-                  "required": true,
                   "type": "boolean",
                   "widget": "select",
                   "title": intl.formatMessage({ id: `${intlPrefix}.installments.numberOfInstallmentsInterestFree` }),
                   "options": optionsInstallments,
+                  "validate": {
+                    "required": true
+                  },
                   "description": intl.formatMessage({ id: `${intlPrefix}.installments.numberOfInstallmentsInterestFree.description` })
                 }
               }
