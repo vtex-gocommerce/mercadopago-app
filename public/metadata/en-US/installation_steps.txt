@@ -1,0 +1,9 @@
+In order for PagSeguro to work correctly, follow these steps:
+
+1. Have an account with the Seller's PayPal account. Click here to make the change;
+
+2. In the PagSeguro, enter in the Preferences -> Freight menu and then check the Additional freight with fixed value option and enter the value of R $ 0.00 real and click CONFIRM at the bottom of the page.
+
+Integration with PagSeguro generates operating costs that are passed on to the platform by PagSeguro (1%). The shopkeeper does not pay commission for the platform. This does not change the fee charged to stores by PagSeguro for transactions, of 3.99% + R $ 0.20 (exclusive fee for transactions through the platform).
+
+Questions to set up this form of payment? See instructions.

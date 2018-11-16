@@ -1,0 +1,7 @@
+{
+  "extensions": {
+    "admin/gateway/paymentDetail/gocommerce.mercadopago-app": {
+      "component": "index"
+    }
+  }
+}

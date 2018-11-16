@@ -1,0 +1,7 @@
+PagSeguro is an e-commerce solution that mediates payment between the seller and the buyer.
+
+The buyer chooses the product or service that wants to buy in one of the sites that use PagSeguro, when finalizing the purchase is directed to the PagSeguro website and chooses the form of payment, being it via credit card, electronic transfer or boleto bancário.
+
+PagSeguro has an agreement with several banking institutions so that the seller can offer different types of payment to the buyers, who receive the payment and pass it on to the seller after making sure that there was no fraud in the transaction. The service offers more than 25 means of payment.
+
+For purchases where the customer who did not receive the product or did not receive it according to the agreement, it is possible to open a dispute (complaint), where PagSeguro mediate the dispute to help the buyer to receive the product or the money back, and helps the seller receive the money from the transaction or return it to the buyer.

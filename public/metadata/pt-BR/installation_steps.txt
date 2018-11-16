@@ -1,0 +1,9 @@
+Para que o PagSeguro funcione corretamente, siga os seguintes passos:
+
+1. Tenha uma conta no PagSeguro do tipo Vendedor. Clique aqui para fazer a mudança;
+
+2. No PagSeguro, entre no menu Preferências -> Frete e depois marque a opção Frete adicional com valor fixo e coloque o valor de R$ 0,00 reais e clique em CONFIRMAR no final da página.
+
+A integração com o PagSeguro gera custos de operação que são repassados para a plataforma pelo PagSeguro (1%). O lojista não paga comissão para a plataforma. Isso não altera o valor da taxa cobrada às lojas pelo PagSeguro pelas transações, de 3,99% + R$0,20 (taxa exclusiva para transações através da plataforma).
+
+Dúvidas para configurar esta forma de pagamento? Veja as instruções.
