@@ -11,7 +11,7 @@ interface PaymentFormState {}
 class PaymentFormComponent extends React.PureComponent<PaymentFormProps, PaymentFormState> {
   render() {
     const { intl } = this.props
-    const intlPrefix = 'admin.payment.pagseguro'
+    const intlPrefix = 'admin.payment.mercadopago'
     const optionsYesNo = [
       {
         "value": false,

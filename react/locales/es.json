@@ -1,14 +1,14 @@
 {
-  "admin.payment.pagseguro.additionalData.description": "<p>Registrase ahora e active su tienda virtual: <a href='https://www.mercadopago.com.ar/registration-mp/?mode=mp' target='_blank' class='blue'>click aquí</a></p><ul class='g-pl5'><li>Acepte tarjetas VISA, MASTER, HIPERCARD, ELO directamente en su tienda.</li><li>Tarifa: consulte la condición de su cuenta directamente en Mercado Pago ya que la tarifa puede variar deacuerdo con el perfil de cada vendedor.</li><li>Para visualizar condiciones comerciales de cuotas, <a href='https://www.mercadopago.com.ar/ayuda/costos-financiacion_621' target='_blank' class='blue'>click aquí</a></li></ul>",
-  "admin.payment.pagseguro.boxGeneral": "General",
-  "admin.payment.pagseguro.boxApplicationSetup": "Configuración de la aplicación",
-  "admin.payment.pagseguro.boxInstallments": "Parcelas",
-  "admin.payment.pagseguro.creditCardActive": "Tarjeta de crédito activa",
-  "admin.payment.pagseguro.redirectActive": "Redireccionar activo",
-  "admin.payment.pagseguro.minimumValue": "Valor mínimo",
-  "admin.payment.pagseguro.minimumValue.description": "Valor mínimo para mostrar esta forma de pago",
-  "admin.payment.pagseguro.minimumInstallmentValue": "Valor mínimo de la parcela",
-  "admin.payment.pagseguro.installments.numberOfInstallments": "Número de parcelas",
-  "admin.payment.pagseguro.installments.numberOfInstallmentsInterestFree": "Parcelas sin intereses",
-  "admin.payment.pagseguro.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sin intereses para esta forma de pago."
+  "admin.payment.mercadopago.additionalData.description": "<p>Registrase ahora e active su tienda virtual: <a href='https://www.mercadopago.com.ar/registration-mp/?mode=mp' target='_blank' class='blue'>click aquí</a></p><ul class='g-pl5'><li>Acepte tarjetas VISA, MASTER, HIPERCARD, ELO directamente en su tienda.</li><li>Tarifa: consulte la condición de su cuenta directamente en Mercado Pago ya que la tarifa puede variar deacuerdo con el perfil de cada vendedor.</li><li>Para visualizar condiciones comerciales de cuotas, <a href='https://www.mercadopago.com.ar/ayuda/costos-financiacion_621' target='_blank' class='blue'>click aquí</a></li></ul>",
+  "admin.payment.mercadopago.boxGeneral": "General",
+  "admin.payment.mercadopago.boxApplicationSetup": "Configuración de la aplicación",
+  "admin.payment.mercadopago.boxInstallments": "Parcelas",
+  "admin.payment.mercadopago.creditCardActive": "Tarjeta de crédito activa",
+  "admin.payment.mercadopago.redirectActive": "Redireccionar activo",
+  "admin.payment.mercadopago.minimumValue": "Valor mínimo",
+  "admin.payment.mercadopago.minimumValue.description": "Valor mínimo para mostrar esta forma de pago",
+  "admin.payment.mercadopago.minimumInstallmentValue": "Valor mínimo de la parcela",
+  "admin.payment.mercadopago.installments.numberOfInstallments": "Número de parcelas",
+  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree": "Parcelas sin intereses",
+  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sin intereses para esta forma de pago."
 }
