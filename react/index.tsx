@@ -124,8 +124,7 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
         "creditCardActive": false,
         "redirectActive": false,
         "numberOfInstallments": 12,
-        "numberOfInstallmentsInterestFree": 1,
-        "bankInvoiceActive": "false"
+        "numberOfInstallmentsInterestFree": 1
       }
     }
 
