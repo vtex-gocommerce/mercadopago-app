@@ -2,6 +2,12 @@
   "extensions": {
     "admin/gateway/paymentDetail/gocommerce.mercadopago-app": {
       "component": "index"
+    },
+    "admin/apps/setup/advanced-config-page/gocommerce.mercadopago-app": {
+      "component": "gocommerce.apps/advancedConfigInfo",
+      "props": {
+        "page": "admin/gateway/paymentDetail"
+      }
     }
   }
 }
