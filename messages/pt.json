@@ -3,6 +3,7 @@
   "admin.payment.mercadopago.boxGeneral": "Geral",
   "admin.payment.mercadopago.boxApplicationSetup": "Configuração do aplicativo",
   "admin.payment.mercadopago.boxInstallments": "Parcelamento",
+  "admin.payment.mercadopago.boxAdditionalSetup": "Configurações adicionais",
   "admin.payment.mercadopago.creditCardActive": "Cartão de crédito ativo",
   "admin.payment.mercadopago.redirectActive": "Redirect ativo",
   "admin.payment.mercadopago.bankInvoiceActive": "Boleto bancário ativo",
@@ -12,5 +13,8 @@
   "admin.payment.mercadopago.minimumInstallmentValue": "Valor mínimo da parcela",
   "admin.payment.mercadopago.installments.numberOfInstallments": "Número de parcelas",
   "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree": "Parcelas sem juros",
-  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sem juros para esta forma de pagamento."
+  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sem juros para esta forma de pagamento.",
+  "admin.payment.mercadopago.softDescriptor": "Nome na fatura",
+  "admin.payment.mercadopago.softDescriptor.description": "Texto impresso na fatura bancária do comprador",
+  "admin.payment.mercadopago.maxInstallments": "Número máximo de parcelas"
 }

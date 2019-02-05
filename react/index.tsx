@@ -30,6 +30,40 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               "label": `${curr}x`
             }
           })
+          const optionsMaxInstallments = [
+            {
+              "value": 1,
+              "label": '1x'
+            },
+            {
+              "value": 3,
+              "label": '3x'
+            },
+            {
+              "value": 6,
+              "label": '6x'
+            },
+            ...((country === 'BRA' || country === 'ARG' || country === 'MEX' || country === 'COL') ? [
+              {
+                "value": 12,
+                "label": '12x'
+              },
+            ] : []),
+            ...((country === 'COL') ? [
+              {
+                "value": 18,
+                "label": '18x'
+              },
+              {
+                "value": 24,
+                "label": '24x'
+              },
+              {
+                "value": 36,
+                "label": '36x'
+              },
+            ] : []),
+          ]
           const paymentSchema = {
             "title": "Mercado Pago",
             "properties": {
@@ -57,16 +91,20 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                     "widget": "toggle",
                     "title": intl.formatMessage({ id: `${intlPrefix}.creditCardActive` })
                   },
-                  ...((country === 'PER' || country === 'ARG') && {"debitCardActive": {
-                    "type": "boolean",
-                    "widget": "toggle",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.debitCardActive` })
-                  }}),
-                  ...(country === 'BRA' && {"bankInvoiceActive": {
-                    "type": "boolean",
-                    "widget": "toggle",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.bankInvoiceActive` })
-                  }}),
+                  ...((country === 'PER' || country === 'ARG') && {
+                    "debitCardActive": {
+                      "type": "boolean",
+                      "widget": "toggle",
+                      "title": intl.formatMessage({ id: `${intlPrefix}.debitCardActive` })
+                    }
+                  }),
+                  ...(country === 'BRA' && {
+                    "bankInvoiceActive": {
+                      "type": "boolean",
+                      "widget": "toggle",
+                      "title": intl.formatMessage({ id: `${intlPrefix}.bankInvoiceActive` })
+                    }
+                  }),
                   "redirectActive": {
                     "type": "boolean",
                     "widget": "toggle",
@@ -86,6 +124,30 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                 "id": "applicationSetup",
                 "showFieldsOnlyAuthorized": true,
                 "fields": {}
+              },
+              "boxAdditionalSetup": {
+                "title": intl.formatMessage({ id: `${intlPrefix}.boxAdditionalSetup` }),
+                "id": "additionalSetup",
+                "fields": {
+                  "affiliation.configuration.softDescriptor": {
+                    "type": "string",
+                    "widget": "text",
+                    "title": intl.formatMessage({ id: `${intlPrefix}.softDescriptor` }),
+                    "description": intl.formatMessage({ id: `${intlPrefix}.softDescriptor.description` }),
+                    "validate": {
+                      "maxLength": 13
+                    }
+                  },
+                  "affiliation.configuration.maxInstallments": {
+                    "type": "number",
+                    "widget": "select",
+                    "title": intl.formatMessage({ id: `${intlPrefix}.maxInstallments` }),
+                    "options": optionsMaxInstallments,
+                    "validate": {
+                      "required": true
+                    }
+                  }
+                }
               },
               "boxInstallments": {
                 "title": intl.formatMessage({ id: `${intlPrefix}.boxInstallments` }),
@@ -131,7 +193,8 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               "creditCardActive": false,
               "redirectActive": false,
               "numberOfInstallments": 12,
-              "numberOfInstallmentsInterestFree": 1
+              "numberOfInstallmentsInterestFree": 1,
+              "affiliation.configuration.maxInstallments": 12
             }
           }
           return <PaymentModel payment_id="mercadopagov1" paymentSchema={paymentSchema} />

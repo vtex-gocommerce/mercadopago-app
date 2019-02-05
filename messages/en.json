@@ -3,6 +3,7 @@
   "admin.payment.mercadopago.boxGeneral": "General",
   "admin.payment.mercadopago.boxApplicationSetup": "Application Setup",
   "admin.payment.mercadopago.boxInstallments": "Installments",
+  "admin.payment.mercadopago.boxAdditionalSetup": "Additional Settings",
   "admin.payment.mercadopago.creditCardActive": "Active credit card?",
   "admin.payment.mercadopago.redirectActive": "Active redirect?",
   "admin.payment.mercadopago.bankInvoiceActive": "Active bank invoice?",
@@ -12,5 +13,8 @@
   "admin.payment.mercadopago.minimumInstallmentValue": "Minimum installment value",
   "admin.payment.mercadopago.installments.numberOfInstallments": "Number of installments",
   "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree": "Number of installments interest free",
-  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment."
+  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment.",
+  "admin.payment.mercadopago.softDescriptor": "Soft Descriptor",
+  "admin.payment.mercadopago.softDescriptor.description": "Text printed on buyer's bank invoice",
+  "admin.payment.mercadopago.maxInstallments": "Maximum number of installments"
 }
