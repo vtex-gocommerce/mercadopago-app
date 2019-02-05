@@ -129,7 +129,7 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                 "title": intl.formatMessage({ id: `${intlPrefix}.boxAdditionalSetup` }),
                 "id": "additionalSetup",
                 "fields": {
-                  "affiliation.configuration.softDescriptor": {
+                  "affiliation.configuration.SoftDescriptor": {
                     "type": "string",
                     "widget": "text",
                     "title": intl.formatMessage({ id: `${intlPrefix}.softDescriptor` }),
