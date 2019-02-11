@@ -86,36 +86,27 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                     "widget": "hidden",
                     "title": "interestRate"
                   },
-                  "creditCardActive": {
-                    "type": "boolean",
-                    "widget": "toggle",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.creditCardActive` })
-                  },
-                  ...((country === 'PER' || country === 'ARG') && {
+                  ...((country === 'BRA' || country === 'COL' || country === 'ARG' || country === 'MEX' || country === 'CHL') && {
+                    "creditCardActive": {
+                      "type": "boolean",
+                      "widget": "toggle",
+                      "title": intl.formatMessage({ id: `${intlPrefix}.creditCardActive` })
+                    }
+                  }),
+                  ...((country === 'MEX' || country === 'ARG') && {
                     "debitCardActive": {
                       "type": "boolean",
                       "widget": "toggle",
                       "title": intl.formatMessage({ id: `${intlPrefix}.debitCardActive` })
                     }
                   }),
-                  ...(country === 'BRA' && {
+                  ...((country === 'BRA' || country === 'COL' || country === 'ARG' || country === 'MEX' || country === 'CHL') && {
                     "bankInvoiceActive": {
                       "type": "boolean",
                       "widget": "toggle",
                       "title": intl.formatMessage({ id: `${intlPrefix}.bankInvoiceActive` })
                     }
                   }),
-                  "redirectActive": {
-                    "type": "boolean",
-                    "widget": "toggle",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.redirectActive` })
-                  },
-                  "minimumValue": {
-                    "type": "number",
-                    "widget": "currency",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.minimumValue` }),
-                    "description": intl.formatMessage({ id: `${intlPrefix}.minimumValue.description` })
-                  }
                 }
               },
               "boxApplicationSetup": {
@@ -136,15 +127,6 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                     "description": intl.formatMessage({ id: `${intlPrefix}.softDescriptor.description` }),
                     "validate": {
                       "maxLength": 13
-                    }
-                  },
-                  "affiliation.configuration.maxInstallments": {
-                    "type": "number",
-                    "widget": "select",
-                    "title": intl.formatMessage({ id: `${intlPrefix}.maxInstallments` }),
-                    "options": optionsMaxInstallments,
-                    "validate": {
-                      "required": true
                     }
                   }
                 }
