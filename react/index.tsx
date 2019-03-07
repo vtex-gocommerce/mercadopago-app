@@ -105,13 +105,11 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                       "title": intl.formatMessage({ id: `${intlPrefix}.bankInvoiceActive` })
                     }
                   }),
-                  ...((country === 'CHL') && {
-                    "redirectActive": {
-                      "type": "boolean",
-                      "widget": "toggle",
-                      "title": intl.formatMessage({ id: `${intlPrefix}.redirectActive` })
-                    }
-                  }),
+                  "redirectActive": {
+                    "type": "boolean",
+                    "widget": "toggle",
+                    "title": intl.formatMessage({ id: `${intlPrefix}.redirectActive` })
+                  },
                   ...((country === 'COL') && {
                     "transferActive": {
                       "type": "boolean",
@@ -146,7 +144,7 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                     "widget": "select",
                     "title": intl.formatMessage({ id: `${intlPrefix}.maxInstallments` }),
                     "options": optionsMaxInstallments,
-                    "validate": {	
+                    "validate": {
                       "required": true
                     }
                   }
