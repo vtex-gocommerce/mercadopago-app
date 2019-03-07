@@ -43,12 +43,10 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
               "value": 6,
               "label": '6x'
             },
-            ...((country === 'BRA' || country === 'ARG' || country === 'MEX' || country === 'COL') ? [
-              {
-                "value": 12,
-                "label": '12x'
-              },
-            ] : []),
+            {
+              "value": 12,
+              "label": '12x'
+            },
             ...((country === 'COL') ? [
               {
                 "value": 18,
@@ -107,6 +105,20 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                       "title": intl.formatMessage({ id: `${intlPrefix}.bankInvoiceActive` })
                     }
                   }),
+                  ...((country === 'CHL') && {
+                    "redirectActive": {
+                      "type": "boolean",
+                      "widget": "toggle",
+                      "title": intl.formatMessage({ id: `${intlPrefix}.redirectActive` })
+                    }
+                  }),
+                  ...((country === 'COL') && {
+                    "transferActive": {
+                      "type": "boolean",
+                      "widget": "toggle",
+                      "title": intl.formatMessage({ id: `${intlPrefix}.transferActive` })
+                    }
+                  }),
                 }
               },
               "boxApplicationSetup": {
@@ -127,6 +139,15 @@ class PaymentFormComponent extends React.PureComponent<PaymentFormProps, Payment
                     "description": intl.formatMessage({ id: `${intlPrefix}.softDescriptor.description` }),
                     "validate": {
                       "maxLength": 13
+                    }
+                  },
+                  "affiliation.configuration.maxInstallments": {
+                    "type": "number",
+                    "widget": "select",
+                    "title": intl.formatMessage({ id: `${intlPrefix}.maxInstallments` }),
+                    "options": optionsMaxInstallments,
+                    "validate": {	
+                      "required": true
                     }
                   }
                 }

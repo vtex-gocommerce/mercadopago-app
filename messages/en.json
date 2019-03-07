@@ -8,6 +8,7 @@
   "admin.payment.mercadopago.redirectActive": "Active redirect?",
   "admin.payment.mercadopago.bankInvoiceActive": "Active bank invoice?",
   "admin.payment.mercadopago.debitCardActive": "Active debit card?",
+  "admin.payment.mercadopago.transferActive": "Active online transfer?",
   "admin.payment.mercadopago.minimumValue": "Minimum value",
   "admin.payment.mercadopago.minimumValue.description": "Minimum amount to display this form of payment",
   "admin.payment.mercadopago.minimumInstallmentValue": "Minimum installment value",

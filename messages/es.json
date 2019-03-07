@@ -8,6 +8,7 @@
   "admin.payment.mercadopago.redirectActive": "Redireccionar activo",
   "admin.payment.mercadopago.bankInvoiceActive": "Boleto bancario activo",
   "admin.payment.mercadopago.debitCardActive": "Tarjeta de débito activa",
+  "admin.payment.mercadopago.transferActive": "Transferencia online activa",
   "admin.payment.mercadopago.minimumValue": "Valor mínimo",
   "admin.payment.mercadopago.minimumValue.description": "Valor mínimo para mostrar esta forma de pago",
   "admin.payment.mercadopago.minimumInstallmentValue": "Valor mínimo de la parcela",
