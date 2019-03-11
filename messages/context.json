@@ -1,0 +1,21 @@
+{
+  "admin.payment.mercadopago.additionalData.description": "<p>Registrase ahora e active su tienda virtual: <a href='https://www.mercadopago.com.ar/registration-mp/?mode=mp' target='_blank' class='blue'>click aquí</a></p><ul class='g-pl5'><li>Acepte tarjetas VISA, MASTER, HIPERCARD, ELO directamente en su tienda.</li><li>Tarifa: consulte la condición de su cuenta directamente en Mercado Pago ya que la tarifa puede variar deacuerdo con el perfil de cada vendedor.</li><li>Para visualizar condiciones comerciales de cuotas, <a href='https://www.mercadopago.com.ar/ayuda/costos-financiacion_621' target='_blank' class='blue'>click aquí</a></li></ul>",
+  "admin.payment.mercadopago.boxGeneral": "General",
+  "admin.payment.mercadopago.boxApplicationSetup": "Application Setup",
+  "admin.payment.mercadopago.boxInstallments": "Installments",
+  "admin.payment.mercadopago.boxAdditionalSetup": "Additional Settings",
+  "admin.payment.mercadopago.creditCardActive": "Active credit card?",
+  "admin.payment.mercadopago.redirectActive": "Active redirect?",
+  "admin.payment.mercadopago.bankInvoiceActive": "Active bank invoice?",
+  "admin.payment.mercadopago.debitCardActive": "Active debit card?",
+  "admin.payment.mercadopago.transferActive": "Active online transfer?",
+  "admin.payment.mercadopago.minimumValue": "Minimum value",
+  "admin.payment.mercadopago.minimumValue.description": "Minimum amount to display this form of payment",
+  "admin.payment.mercadopago.minimumInstallmentValue": "Minimum installment value",
+  "admin.payment.mercadopago.installments.numberOfInstallments": "Number of installments",
+  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree": "Number of installments interest free",
+  "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment.",
+  "admin.payment.mercadopago.softDescriptor": "Soft Descriptor",
+  "admin.payment.mercadopago.softDescriptor.description": "Text printed on buyer's bank invoice",
+  "admin.payment.mercadopago.maxInstallments": "Maximum number of installments"
+}
