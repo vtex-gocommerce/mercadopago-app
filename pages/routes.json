@@ -1,0 +1,5 @@
+{
+  "admin.gateway.mercadopago-app": {
+    "path": "/admin/gateway/payments/gocommerce.mercadopago-app"
+  }
+}
