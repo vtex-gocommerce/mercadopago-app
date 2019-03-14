@@ -1,7 +1,7 @@
 {
   "name": "mercadopago-app",
   "vendor": "gocommerce",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title": "Mercado Pago",
   "description": "Mercado Pago App",
   "mustUpdateAt": "2019-03-02",
@@ -9,6 +9,7 @@
   "registries": ["smartcheckout", "gocommerce"],
   "categories": ["gocommerce", "payments"],
   "dependencies": {
+    "gocommerce.admin": "1.x",
     "gocommerce.admin-gateway": "1.x",
     "gocommerce.gc-context": "0.x"
   },
