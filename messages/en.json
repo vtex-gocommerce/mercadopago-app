@@ -17,5 +17,5 @@
   "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Number of interest-free installments for this form of payment.",
   "admin.payment.mercadopago.softDescriptor": "Soft Descriptor",
   "admin.payment.mercadopago.softDescriptor.description": "Text printed on buyer's bank invoice",
-  "admin.payment.mercadopago.maxInstallments": "Maximum number of installments"
+  "admin.payment.mercadopago.maxInstallments": "Maximum number of installments (Redirect only)"
 }

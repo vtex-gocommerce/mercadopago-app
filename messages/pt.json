@@ -17,5 +17,5 @@
   "admin.payment.mercadopago.installments.numberOfInstallmentsInterestFree.description": "Número de parcelas sem juros para esta forma de pagamento.",
   "admin.payment.mercadopago.softDescriptor": "Nome na fatura",
   "admin.payment.mercadopago.softDescriptor.description": "Texto impresso na fatura bancária do comprador",
-  "admin.payment.mercadopago.maxInstallments": "Número máximo de parcelas"
+  "admin.payment.mercadopago.maxInstallments": "Número máximo de parcelas (apenas para Redirect)"
 }
