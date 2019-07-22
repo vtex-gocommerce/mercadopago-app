@@ -1,21 +1,27 @@
 {
   "name": "mercadopago-app",
   "vendor": "gocommerce",
-  "version": "1.0.2",
+  "version": "2.0.0",
   "title": "Mercado Pago",
   "description": "Mercado Pago App",
   "mustUpdateAt": "2019-03-02",
   "credentialType": "absolute",
-  "registries": ["smartcheckout", "gocommerce"],
-  "categories": ["gocommerce", "payments"],
+  "registries": [
+    "smartcheckout",
+    "gocommerce"
+  ],
+  "categories": [
+    "gocommerce",
+    "payments"
+  ],
   "dependencies": {
-    "gocommerce.admin": "1.x",
-    "gocommerce.admin-gateway": "1.x",
-    "gocommerce.gc-context": "0.x"
+    "gocommerce.admin-gateway": "2.x",
+    "gocommerce.gc-context": "1.x"
   },
   "builders": {
     "react": "3.x",
-    "pages": "1.x",
+    "admin": "0.x",
     "messages": "1.x"
-  }
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
 }
