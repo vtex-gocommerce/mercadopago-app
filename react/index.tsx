@@ -1,10 +1,11 @@
 import * as React from 'react'
-import { injectIntl } from 'react-intl'
+import { injectIntl, InjectedIntl } from 'react-intl'
+
 import { Context } from 'gocommerce.gc-context'
 import { PaymentModel } from 'gocommerce.admin-gateway'
 
 interface PaymentFormProps {
-  intl: any
+  intl: InjectedIntl
 }
 
 interface PaymentFormState {}

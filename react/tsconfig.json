@@ -1,13 +1,12 @@
 {
-  "include": ["./*", "./../../@types"],
-  "extends": "./../../@types/tsconfig",
   "compilerOptions": {
     "noImplicitAny": false,
     "module": "commonjs",
     "target": "esnext",
     "jsx": "react",
     "lib": ["dom", "es2017"],
-    "experimentalDecorators": true
+    "experimentalDecorators": true,
+    "typeRoots": ["node_modules/@types"]
   },
   "lib": ["dom", "es2017"]
 }
