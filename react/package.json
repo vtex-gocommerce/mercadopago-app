@@ -9,7 +9,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@types/node": "10.12.1",
+    "@types/node": "^13.7.0",
     "react-intl": "^2.4.0"
   },
   "devDependencies": {
