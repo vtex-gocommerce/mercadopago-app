@@ -1,6 +1,6 @@
 import { Injectedintl } from 'react-intl'
 
-const intlPrefix = 'admin.payment.mercadopago'
+const intlPrefix = 'admin/payment.mercadopago'
 
 const optionsInstallments = new Array(12).fill(0).map(function(_, i) {
   const curr = i + 1
